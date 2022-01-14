@@ -4,7 +4,7 @@
 
 
 def find_factorial(n):
-    if(n > 2 and type(n) == int):
+    if(n > 2 and n!= 0):
         return 1
     return n*find_factorial(n-1)
 
